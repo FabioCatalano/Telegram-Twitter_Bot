@@ -1,7 +1,7 @@
 # Telegram-Twitter_Bot
 Create a bot that publishes on Twitter and Telegram the link to the articles you have posted on your website
 
-The code uses the following modules: tweepy, time, requests, os, telebot, random and html. You have to get your Twitter's keys from Twitter Developer portal (https://developer.twitter.com/en/docs/developer-portal/overview) and create a Telegram bot with "BotFather" (https://t.me/botfather). 
+The code uses the following modules: <b>tweepy</b>, <b>time</b>, <b>requests</b>, <b>os</b>, <b>telebot</b>, <b>random</b> and <b>html</b>. You have to get your Twitter's keys from the Twitter Developer portal (https://developer.twitter.com/en/docs/developer-portal/overview) and create a Telegram bot with "BotFather" (https://t.me/botfather). 
 
 The posted code saves the id of the last published articles in a separate file called "last_article_id.txt" and then it checks if a new one has been published on the website through the 2 functions "retrieve_last_article" and "store_last_article".
 
