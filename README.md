@@ -9,3 +9,4 @@ In the infinite loop the id of the last article currently published on Twitter a
 
 If the 2 ids are different the link of the new article together with some other information like author and title is published in the chosen Telegram channel and on the Twitter profile. The program tries to send the message or publish the tweet 2 times. If both fail an error message is returned, but the program doesn't stop. 
 
+The program checks every 3 minutes circa if a new article has been published on the website. This time can be increased or decreased, but too many server requests in a short period of time may lead to the ban of your IP address or an overload of the server.
